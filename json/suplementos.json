@@ -1,0 +1,6 @@
+[
+    {"nombre": "Creatina", "precio": 5000, "cantidad": 10},
+    {"nombre": "Proteína", "precio": 2500, "cantidad": 5},
+    {"nombre": "Pre-entreno", "precio": 3500, "cantidad": 0},
+    {"nombre": "Ganador de masa", "precio": 2000, "cantidad": 3}
+]

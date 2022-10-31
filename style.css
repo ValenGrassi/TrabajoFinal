@@ -1,0 +1,20 @@
+.botonitos{
+    margin-top: 10px ;
+    width: 20%;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    margin: 10px;
+}
+
+button{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Entrega Final XD</title>
+</head>
+
+<body>
+    <h1>MUSCLE FITNESS - GIMNASIO Y SUPLEMENTOS</h1>
+    <h3>Crear un producto: </h3>
+
+    <form id="formulario">
+        <label for="nuevoNombre">Nombre del Suplemento: </label>
+        <input id="nuevoNombre" type="text">
+        <br><br>
+
+        <label for="nuevoPrecio">Precio del Suplemento: $</label>
+        <input id="nuevoPrecio" type="number" min="1000" max="10000">
+        <br><br>
+
+        <label for="nuevaCantidad">Cantidad en stock: </label>
+        <select name="cantidad" id="nuevaCantidad">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br><br>
+
+        <button>Enviar</button>
+    </form>
+
+    <div id="contenedorSuplementos"></div>
+
+    <button id="verSuplementos" class="botonitos">Mostrar Suplementos Creados</button>
+    <button id="borrarSuplementos" class="botonitos">Borrar Suplementos Creados</button>
+
+    <div id="contenedorSuplementos2"></div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
